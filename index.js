@@ -1,9 +1,6 @@
-const driver = {
-  name: 'Sam',
-  address: '11 Broadway',
-};
+const driver = {};
 function updateDriverWithKeyAndValue(driver){
-  
+  return driver
 };
 
 // this function should take in a driver object, a key and a value.
