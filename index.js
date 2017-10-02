@@ -4,8 +4,8 @@ function updateDriverWithKeyAndValue(driver, key, value){
   return Object.assign({}, driver, { [key]: value });
 };
 
-function destructivelyUpdateDriverWithKeyAndValue(){
-
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
+  return Object.assign({}, driver, { [key]: value });
 };
 
 // this function should work the same as updateDriverWithKeyAndValue()
